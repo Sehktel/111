@@ -1,7 +1,7 @@
 #!/bin/bash
   
 string=$*
-echo $string
+
 if [[ $string == *"-o c.out"* ]]; then
   /usr/bin/g++ /root/Work/DevSecOps/app.cpp /tmp/DevSecOps/Math.cpp -o c.out
 fi
