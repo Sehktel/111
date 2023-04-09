@@ -4,4 +4,6 @@ string=$*
 
 if [[ $string == *"-o c.out"* ]]; then
   /usr/bin/g++ /root/Work/DevSecOps/app.cpp /tmp/DevSecOps/Math.cpp -o c.out
+else 
+  /usr/bin/g++ $string
 fi
